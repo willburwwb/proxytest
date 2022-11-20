@@ -10,4 +10,4 @@ RUN go build -o server .
 
 EXPOSE 1080
 
-CMD [ "server" ]
+CMD [ "./server" ]
